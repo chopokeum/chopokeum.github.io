@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>UNOFFICIAL LINE SDK for Unreal: UAccessToken Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<!-- <a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style> -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">UNOFFICIAL LINE SDK for Unreal
+   &#160;<span id="projectnumber">1.0.0</span>
+   </div>
+   <div id="projectbrief">The UNOFFICIAL LINE SDK for Unreal helps you develop a Unreal Engine game with engaging and personalized user experience.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_u_access_token.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="class_u_access_token-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">UAccessToken Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Represents an access token which is used to access the LINE Platform.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_access_token_8h_source.html">AccessToken.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for UAccessToken:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_u_access_token.png" usemap="#UAccessToken_map" alt=""/>
+  <map id="UAccessToken_map" name="UAccessToken_map">
+<area href="class_u_response.html" title="Represents a generic response from the LINE Platform APIs." alt="UResponse" shape="rect" coords="0,56,96,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a4c0c8122c4b9eabb873c5d65a0456de4" id="r_a4c0c8122c4b9eabb873c5d65a0456de4"><td class="memItemLeft" align="right" valign="top">TSharedPtr&lt; FJsonObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c0c8122c4b9eabb873c5d65a0456de4">ToJsonObject</a> () const</td></tr>
+<tr class="memdesc:a4c0c8122c4b9eabb873c5d65a0456de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the <code><a class="el" href="class_u_access_token.html" title="Represents an access token which is used to access the LINE Platform.">UAccessToken</a></code> object to a JSON object.  <br /></td></tr>
+<tr class="separator:a4c0c8122c4b9eabb873c5d65a0456de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb776908efcc3351adc402056642a42" id="r_a5bb776908efcc3351adc402056642a42"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bb776908efcc3351adc402056642a42">ToJson</a> () const</td></tr>
+<tr class="memdesc:a5bb776908efcc3351adc402056642a42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the <code><a class="el" href="class_u_access_token.html" title="Represents an access token which is used to access the LINE Platform.">UAccessToken</a></code> object to a JSON string.  <br /></td></tr>
+<tr class="separator:a5bb776908efcc3351adc402056642a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7aa5305be9d52a391762cf25d861b8" id="r_a0f7aa5305be9d52a391762cf25d861b8"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f7aa5305be9d52a391762cf25d861b8">GetValue</a> () const</td></tr>
+<tr class="memdesc:a0f7aa5305be9d52a391762cf25d861b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value of the access token.  <br /></td></tr>
+<tr class="separator:a0f7aa5305be9d52a391762cf25d861b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be6b6e52da532bbf77f48217920939c" id="r_a8be6b6e52da532bbf77f48217920939c"><td class="memItemLeft" align="right" valign="top">int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be6b6e52da532bbf77f48217920939c">GetExpiresIn</a> () const</td></tr>
+<tr class="memdesc:a8be6b6e52da532bbf77f48217920939c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets number of seconds until the access token expires.  <br /></td></tr>
+<tr class="separator:a8be6b6e52da532bbf77f48217920939c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5e26b9d09952c8a9023017f7ddaf86" id="r_aca5e26b9d09952c8a9023017f7ddaf86"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca5e26b9d09952c8a9023017f7ddaf86">GetIdTokenRaw</a> () const</td></tr>
+<tr class="memdesc:aca5e26b9d09952c8a9023017f7ddaf86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the raw string value of the ID token bound to the access token.  <br /></td></tr>
+<tr class="separator:aca5e26b9d09952c8a9023017f7ddaf86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab233e385b27f0f94c05ae3c05e9b53f8" id="r_ab233e385b27f0f94c05ae3c05e9b53f8"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab233e385b27f0f94c05ae3c05e9b53f8">GetRefreshToken</a> () const</td></tr>
+<tr class="memdesc:ab233e385b27f0f94c05ae3c05e9b53f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the refresh token bound to the access token.  <br /></td></tr>
+<tr class="separator:ab233e385b27f0f94c05ae3c05e9b53f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9238e45b1faab38119de1a53c498b2" id="r_a5d9238e45b1faab38119de1a53c498b2"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9238e45b1faab38119de1a53c498b2">GetScope</a> () const</td></tr>
+<tr class="memdesc:a5d9238e45b1faab38119de1a53c498b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets permissions granted by the user.  <br /></td></tr>
+<tr class="separator:a5d9238e45b1faab38119de1a53c498b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902d6f53b72ef81bfa57ba677a6e1aae" id="r_a902d6f53b72ef81bfa57ba677a6e1aae"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902d6f53b72ef81bfa57ba677a6e1aae">GetTokenType</a> () const</td></tr>
+<tr class="memdesc:a902d6f53b72ef81bfa57ba677a6e1aae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the expected authorization type when this token is used in a request header.  <br /></td></tr>
+<tr class="separator:a902d6f53b72ef81bfa57ba677a6e1aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a412ca5380ae0eb2dcd71c53a55a05e5f" id="r_a412ca5380ae0eb2dcd71c53a55a05e5f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_u_access_token.html">UAccessToken</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412ca5380ae0eb2dcd71c53a55a05e5f">FromJson</a> (const FString &amp;Json)</td></tr>
+<tr class="memdesc:a412ca5380ae0eb2dcd71c53a55a05e5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of <code><a class="el" href="class_u_access_token.html" title="Represents an access token which is used to access the LINE Platform.">UAccessToken</a></code> from a JSON string.  <br /></td></tr>
+<tr class="separator:a412ca5380ae0eb2dcd71c53a55a05e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_class_u_response"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_class_u_response')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_u_response.html">UResponse</a></td></tr>
+<tr class="memitem:ad30dcf24c6fb78ea3ba2e78d96714a7b inherit pub_static_methods_class_u_response" id="r_ad30dcf24c6fb78ea3ba2e78d96714a7b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_u_response.html">UResponse</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_response.html#ad30dcf24c6fb78ea3ba2e78d96714a7b">Unit</a> ()</td></tr>
+<tr class="memdesc:ad30dcf24c6fb78ea3ba2e78d96714a7b inherit pub_static_methods_class_u_response"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents an empty result value.  <br /></td></tr>
+<tr class="separator:ad30dcf24c6fb78ea3ba2e78d96714a7b inherit pub_static_methods_class_u_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents an access token which is used to access the LINE Platform. </p>
+<p>Most API calls to the LINE Platform require an access token as evidence of successful authorization. A valid access token is issued after the user grants your app the permissions that your app requests. An access token is bound to permissions (scopes) that define the API endpoints that you can access. Choose the permissions for your channel in the LINE Developers site and set them in the login method used in your app.</p>
+<p>An access token expires after a certain period. <code>ExpiresIn</code> specifies the time until which this access token expires.</p>
+<p>By default, the LINE SDK stores access tokens in a secure place on the device running your app and obtains authorization when you access the LINE Platform through the framework request methods.</p>
+<p>Don't try to create an access token yourself. You can get the stored access token with fewer properties with <code><a class="el" href="class_f_line_s_d_k.html#af7520f30882aea9508a10455ec8963d8" title="Gets the current access token in use.">FLineSDK::GetCurrentAccessToken()</a></code>. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a412ca5380ae0eb2dcd71c53a55a05e5f" name="a412ca5380ae0eb2dcd71c53a55a05e5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412ca5380ae0eb2dcd71c53a55a05e5f">&#9670;&#160;</a></span>FromJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_u_access_token.html">UAccessToken</a> * UAccessToken::FromJson </td>
+          <td>(</td>
+          <td class="paramtype">const FString &amp;</td>          <td class="paramname"><span class="paramname"><em>Json</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates an instance of <code><a class="el" href="class_u_access_token.html" title="Represents an access token which is used to access the LINE Platform.">UAccessToken</a></code> from a JSON string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Json</td><td>The JSON string containing the access token data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the created <code><a class="el" href="class_u_access_token.html" title="Represents an access token which is used to access the LINE Platform.">UAccessToken</a></code> object. </dd></dl>
+
+</div>
+</div>
+<a id="a8be6b6e52da532bbf77f48217920939c" name="a8be6b6e52da532bbf77f48217920939c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be6b6e52da532bbf77f48217920939c">&#9670;&#160;</a></span>GetExpiresIn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64 UAccessToken::GetExpiresIn </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets number of seconds until the access token expires. </p>
+
+</div>
+</div>
+<a id="aca5e26b9d09952c8a9023017f7ddaf86" name="aca5e26b9d09952c8a9023017f7ddaf86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5e26b9d09952c8a9023017f7ddaf86">&#9670;&#160;</a></span>GetIdTokenRaw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UAccessToken::GetIdTokenRaw </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the raw string value of the ID token bound to the access token. </p>
+<dl class="section note"><dt>Note</dt><dd>The value exists only if the access token is obtained with the "openID" permission. </dd></dl>
+
+</div>
+</div>
+<a id="ab233e385b27f0f94c05ae3c05e9b53f8" name="ab233e385b27f0f94c05ae3c05e9b53f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab233e385b27f0f94c05ae3c05e9b53f8">&#9670;&#160;</a></span>GetRefreshToken()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UAccessToken::GetRefreshToken </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the refresh token bound to the access token. </p>
+
+</div>
+</div>
+<a id="a5d9238e45b1faab38119de1a53c498b2" name="a5d9238e45b1faab38119de1a53c498b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9238e45b1faab38119de1a53c498b2">&#9670;&#160;</a></span>GetScope()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UAccessToken::GetScope </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets permissions granted by the user. </p>
+
+</div>
+</div>
+<a id="a902d6f53b72ef81bfa57ba677a6e1aae" name="a902d6f53b72ef81bfa57ba677a6e1aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902d6f53b72ef81bfa57ba677a6e1aae">&#9670;&#160;</a></span>GetTokenType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UAccessToken::GetTokenType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the expected authorization type when this token is used in a request header. </p>
+<dl class="section note"><dt>Note</dt><dd>Fixed to "Bearer" for now. </dd></dl>
+
+</div>
+</div>
+<a id="a0f7aa5305be9d52a391762cf25d861b8" name="a0f7aa5305be9d52a391762cf25d861b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f7aa5305be9d52a391762cf25d861b8">&#9670;&#160;</a></span>GetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UAccessToken::GetValue </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the value of the access token. </p>
+
+</div>
+</div>
+<a id="a5bb776908efcc3351adc402056642a42" name="a5bb776908efcc3351adc402056642a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bb776908efcc3351adc402056642a42">&#9670;&#160;</a></span>ToJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UAccessToken::ToJson </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts the <code><a class="el" href="class_u_access_token.html" title="Represents an access token which is used to access the LINE Platform.">UAccessToken</a></code> object to a JSON string. </p>
+<dl class="section return"><dt>Returns</dt><dd>The serialized JSON string. </dd></dl>
+
+</div>
+</div>
+<a id="a4c0c8122c4b9eabb873c5d65a0456de4" name="a4c0c8122c4b9eabb873c5d65a0456de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0c8122c4b9eabb873c5d65a0456de4">&#9670;&#160;</a></span>ToJsonObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TSharedPtr&lt; FJsonObject &gt; UAccessToken::ToJsonObject </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts the <code><a class="el" href="class_u_access_token.html" title="Represents an access token which is used to access the LINE Platform.">UAccessToken</a></code> object to a JSON object. </p>
+<dl class="section return"><dt>Returns</dt><dd>A shared pointer to the serialized JSON object. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="_access_token_8h_source.html">AccessToken.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_u_access_token.html">UAccessToken</a></li>
+    <li class="footer">Generated on Sun Jan 12 2025 02:04:16 for UNOFFICIAL LINE SDK for Unreal by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>
